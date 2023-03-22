@@ -1,3 +1,33 @@
 body {
     background-color: #F5F5F5;
+    height: 1fr;
+}
+
+header {
+    padding-top: 20px;
+    /* background-color: #F50; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+header > h1 {
+    color: #DEB887;
+    font-size: 50px;
+}
+
+header > img {
+    box-shadow: 10px 10px 10px #bbb;
+    border-radius: 50%;
+}
+
+header >  .perfil_content {
+    box-shadow: 10px 10px 10px #bbb;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-image: url('../img/profile.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
